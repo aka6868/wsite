@@ -1,14 +1,6 @@
 /**
- * Sitech
- * HTML template with high-quality content and latest design trends that fit product market for SaaS, App Solutions Promo Campaigns, Development Studios, Digital Marketing Agencies, Startups and other rising internet technology services
- * Exclusively on https://1.envato.market/sitech-html
- *
- * @encoding        UTF-8
- * @version         1.0.0
- * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
- * @license         Envato License https://1.envato.market/KYbje
- * @contributors    Lilith Lamber (winter.rituel@gmail.com)
- * @support         help@merkulov.design
+ * AkaTek
+
  **/
 "use strict";
 
@@ -72,7 +64,7 @@ export function drawNav() {
                     </div>
                     <div class="signup_popup-header">
                         <h3 class="title">Get Your Free Demo</h3>
-                        <h5 class="subtitle">Sign Up to Sitech</h5>
+                        <h5 class="subtitle">Sign Up to AkaTek</h5>
                     </div>
                     <ul class="signup_popup-list d-flex flex-column flex-md-row justify-content-md-center">
                         <li class="list-item">
