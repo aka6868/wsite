@@ -315,11 +315,11 @@ body {
 }
 
 .btn--neon {
-    background: #4bff2a;
+    background: #29F3AF;
     color: #1b2129;
     border: 1px solid #1b2129;
     -webkit-box-shadow: 3px 3px 0 #4bff2a;
-    box-shadow: 3px 3px 0 #4bff2a;
+    box-shadow: 3px 3px 0 #29F3AF;
     border-radius: 2px
 }
 
