@@ -185,8 +185,8 @@ body {
 }
 
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
-    font-family: "Roboto Mono",monospace;
-    font-weight: 600;
+    font-family: "Nunito",monospace;
+    font-weight: 700;
     color: #1b2129
 }
 
@@ -300,7 +300,7 @@ body {
     text-transform: uppercase;
     line-height: 1;
     font-size: 14px;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Nunito",sans-serif;
     font-weight: 700;
     height: 48px;
     display: -webkit-box;
@@ -1288,7 +1288,9 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
     }
 
     .header_nav-list_item .nav-item_text {
-        position: relative
+        position: relative;
+        font-family: "Nunito",monospace;
+        font-weight: 700;
     }
 
     .header_nav-list_item .nav-item_text:before {
