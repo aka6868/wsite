@@ -51,11 +51,15 @@
                         </li>
                      
                         <li class="header_nav-list_item">
-                            <a class="nav-item nav-link" href="#faq" data-page="prices" data-single="true">
-                                <span class="nav-item_text">Working Models</span>
+                            <a class="nav-item nav-link" href="#working" data-page="prices" data-single="true">
+                                <span class="nav-item_text">Working</span>
                             </a>
                         </li>
-
+                        <li class="header_nav-list_item">
+                            <a class="nav-item nav-link" href="#pricing" data-page="prices" data-single="true">
+                                <span class="nav-item_text">Pricing</span>
+                            </a>
+                        </li>
                        <!--  <li class="header_nav-list_item">
                             <a class="nav-item nav-link" href="#feedback" data-page="contact" data-single="true">
                                 <span class="nav-item_text">Contact</span>
@@ -184,7 +188,9 @@
                                     <i class="icon-star icon"></i>
                                 </span>
                                 <div class="main">
-                                    <h6 class="main_title">Dedicated Development Team</h6>
+                                    <a href="#team">
+                                        <h6 class="main_title">Dedicated Development Team</h6>
+                                    </a>
                                     <p class="main_text">
                                         With our Dedicated Development Team, you'll have the resources you need to turn your vision into a reality.
                                     </p>
@@ -203,7 +209,9 @@
                                     <i class="icon-moneyglass icon"></i>
                                 </span>
                                 <div class="main">
-                                    <h6 class="main_title">Offshore Staffing / Recruitment</h6>
+                                    <a href="#staffing">
+                                        <h6 class="main_title">Offshore Staffing / Recruitment</h6>
+                                    </a>
                                     <p class="main_text">
                                         AkaTek provides end-to-end recruitment services for software engineers: headhunting, technical interviewing, and HR-managing.
                                     </p>
@@ -253,7 +261,7 @@
                 <div class="container">
                     <div class="accordion" id="faq_accordion">
                         <!-- item 1 -->
-                        <div class="accordion_item">
+                        <div class="accordion_item" id="working">
                             <div class="accordion_item-wrapper">
                                 <h4
                                     class="title d-flex justify-content-between align-items-center collapsed"
@@ -273,7 +281,7 @@
                                                 Whether you need to streamline processes, improve customer engagement, or enhance your products and services, AkaTek is the partner you can trust to deliver measurable results.
                                             </p>
                                             <ul class="main_list">
-                                                <li class="main_list-item">
+                                                <li class="main_list-item" id="team">
                                                     <span class="number countNum" data-prefix="0" data-value="1">01</span>
                                                     <div class="main">
                                                         <h6 class="main_title">Dedicated Development Team</h6>
@@ -282,7 +290,7 @@
                                                         </p>
                                                     </div>
                                                 </li>
-                                                <li class="main_list-item">
+                                                <li class="main_list-item" id="staffing">
                                                     <span class="number countNum" data-prefix="0" data-value="2">02</span>
                                                     <div class="main">
                                                         <h6 class="main_title">Offshore Staffing</h6>
@@ -299,7 +307,7 @@
                         </div>
 
                         <!-- item 3 -->
-                        <div class="accordion_item">
+                        <div class="accordion_item" id="pricing">
                             <div class="accordion_item-wrapper">
                                 <h4
                                     class="title d-flex justify-content-between align-items-center collapsed"
@@ -607,8 +615,14 @@
                             </a>
                         </li>
                         <li class="footer_top-nav_link">
-                            <a class="link h5" href="#faq">
-                                Working Models
+                            <a class="link h5" href="#working">
+                                Working
+                                <i class="icon-arrow-left icon arrow-rotate"></i>
+                            </a>
+                        </li>
+                         <li class="footer_top-nav_link">
+                            <a class="link h5" href="#pricing">
+                                Pricing
                                 <i class="icon-arrow-left icon arrow-rotate"></i>
                             </a>
                         </li>
