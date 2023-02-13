@@ -29,3 +29,12 @@
 //         }
 //     })
 // });
+
+const navItems = document.querySelectorAll(".header_nav-list_item")
+const headerNav = document.querySelector("#headerMenu")
+navItems.forEach(e=>{
+    e.addEventListener("click",e=>{
+        headerNav.classList.remove("show")
+        document.querySelector("html").classList.remove("fixed")
+    })
+});
