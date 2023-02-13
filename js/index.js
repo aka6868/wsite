@@ -3,8 +3,8 @@
 **/
 "use strict";
 
-import {initSwiperSlider} from "./modules/slider";
-import setYTFrame from "./modules/video";
+// import {initSwiperSlider} from "./modules/slider";
+// import setYTFrame from "./modules/video";
 
 document.addEventListener('DOMContentLoaded', () => {
     initSwiperSlider('.chart_slider', '.chart_slider', {
@@ -28,4 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     })
-})
+});
+
+const navItems = document.querySelectorAll(".header_nav-list_item")
+const headerNav = document.querySelector("#headerMenu")
+navItems.forEach(e=>{e.addEventListener("click",e=>{
+    console.log("accccc");
+    headerNav.classList.remove("show");
+})});
