@@ -6,7 +6,11 @@
 .features {
     padding: 60px 0;
     &_media {
-        background: linear-gradient(0deg, #4BFF2A, #4BFF2A), url('../img/placeholder.jpg') no-repeat center / cover;
+        background: -webkit-gradient(linear, left bottom, left top, from(#29F3AF), to(#29F3AF)), url('../img/placeholder.jpg') no-repeat center / cover;
+        background: -webkit-linear-gradient(bottom, #29F3AF, #29F3AF), url('../img/placeholder.jpg') no-repeat center / cover;
+        background: -moz-linear-gradient(bottom, #29F3AF, #29F3AF), url('../img/placeholder.jpg') no-repeat center / cover;
+        background: -o-linear-gradient(bottom, #29F3AF, #29F3AF), url('../img/placeholder.jpg') no-repeat center / cover;
+        background: linear-gradient(0deg, #29F3AF, #29F3AF), url('../img/placeholder.jpg') no-repeat center / cover;
         background-blend-mode: darken, normal;
         height: 320px;
         margin-bottom: 10px;
