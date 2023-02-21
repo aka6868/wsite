@@ -208,9 +208,9 @@ h6, .h6 {
         background: #fff;
 
         &:hover, &:focus {
-            -webkit-box-shadow: 6px 6px 0 #a52a2a;
-               -moz-box-shadow: 6px 6px 0 #a52a2a;
-                    box-shadow: 6px 6px 0 #a52a2a;
+            -webkit-box-shadow: 6px 6px 0 $headerColor;
+               -moz-box-shadow: 6px 6px 0 $headerColor;
+                    box-shadow: 6px 6px 0 $headerColor;
         }
     }
 
